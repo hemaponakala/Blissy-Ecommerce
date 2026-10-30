@@ -1,0 +1,49 @@
+.page {
+  padding: 40px 0;
+}
+
+.headerRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.count {
+  font-size: 14px;
+  color: #555;
+}
+
+.sortBox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 500;
+}
+
+.sortBox label {
+  font-size: 14px;
+  color: #333;
+}
+
+.sortBox select {
+  padding: 6px 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+

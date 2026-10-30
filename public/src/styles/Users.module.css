@@ -1,0 +1,19 @@
+.usersList { display: grid; grid-template-columns: repeat(3, 1fr); gap: var(--space-lg); }
+@media (max-width: 900px) { .usersList { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .usersList { grid-template-columns: 1fr; } }
+
+.userCard {
+  background: var(--card);
+  border: 1px solid #1e2533;
+  border-radius: var(--radius);
+  padding: var(--space-md);
+  display: flex;
+  gap: var(--space-md);
+  align-items: center;
+}
+.avatar {
+  width: 64px; height: 64px; border-radius: 50%; object-fit: cover; border: 2px solid #283249;
+}
+.info {}
+.name { font-weight: 700; }
+.email, .role { color: var(--muted); }

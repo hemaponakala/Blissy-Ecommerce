@@ -1,0 +1,77 @@
+.page {
+  max-width: 800px;
+  margin: 40px auto;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.empty {
+  text-align: center;
+  color: #777;
+}
+
+.orderList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.orderCard {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.1);
+  padding: 20px;
+}
+
+.orderHeader {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  font-size: 14px;
+  color: #555;
+}
+
+.orderItems {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.itemRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.itemInfo {
+  flex: 1;
+  margin-left: 10px;
+}
+
+.itemTitle {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.itemQty {
+  font-size: 13px;
+  color: #777;
+}
+
+.itemPrice {
+  font-weight: 600;
+  color: #222;
+}
+

@@ -1,0 +1,5 @@
+.spinner {
+  padding: var(--space-lg);
+  text-align: center;
+  color: var(--muted);
+}

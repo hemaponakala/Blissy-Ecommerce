@@ -1,0 +1,162 @@
+.page {
+  padding: 40px 20px;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.empty {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #777;
+}
+
+.checkoutBox {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.sectionTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+.addressBox {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.addressLine {
+  margin-bottom: 6px;
+  color: #555;
+}
+
+.editBtn {
+  margin-top: 10px;
+  background: none;
+  border: 1px solid #0b5ed7;
+  color: #0b5ed7;
+  padding: 8px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.editBtn:hover {
+  background: #e6f0ff;
+}
+
+.summaryBox {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.itemList {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 20px;
+}
+
+.item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  font-size: 15px;
+  color: #444;
+}
+
+.totalRow {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.actionRow {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+.backBtn {
+  background: none;
+  border: 1px solid #999;
+  color: #555;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.backBtn:hover {
+  background: #f0f0f0;
+}
+
+.payBtn {
+  background: #0b5ed7;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+.payBtn:hover {
+  background: #084298;
+}
+.summaryItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #eee;
+}
+
+.summaryLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.summaryImg {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.summaryTitle {
+  font-size: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.summaryPrice {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+}
+
+.addressBox {
+  width: 100%;
+  margin: 40px auto;
+  background: #fff;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.12);
+}
+

@@ -1,0 +1,133 @@
+.page {
+  padding: 20px;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(135deg, #f8f9ff 0%, #e6eeff 100%);
+  border-radius: 22px;
+  padding: 40px;
+  margin-bottom: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.heroText {
+  max-width: 50%;
+  flex:1;
+}
+
+.heroText h1 {
+  font-size: 48px;
+  line-height: 1.2;
+  margin:0;
+  font-weight: 800;
+  color: #1a1a1a;
+}
+
+.heroText p {
+  margin-top: 12px;
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+
+}
+
+.heroText button {
+  background: #0b5ed7;
+  display: inline-block;
+  margin-top: 22px;
+  color: white;
+  border: none;
+  padding: 14px 24px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.2s ease;
+}
+
+.heroText button:hover {
+  background: #084298;
+}
+
+.heroImage {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 18px;
+  box-shadow: 0 10px 26px rgba(0,0,0,0.1);
+  object-fit: cover;
+
+}
+
+
+.categories h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.grid {
+  display: flex;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  cursor: pointer;
+  text-align: center;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 16px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  height: 260px; /* ✅ fixed height for all cards */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  overflow: hidden;
+
+
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-bottom: 12px;
+}
+
+.card span {
+  font-weight: 700;
+  font-size: 1rem;
+  color: #333;
+  text-align: center;
+
+}
+.related {
+  margin-top: 60px;
+}
+
+.related h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.related .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 30px;
+}
